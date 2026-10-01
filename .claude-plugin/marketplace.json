@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "agent-skills",
+  "name": "tavannam9x-agent-skills",
   "description": "Collection of Claude Code skills for development workflows",
   "owner": {
     "name": "tavannam9x",
