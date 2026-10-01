@@ -1,0 +1,27 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agent-skills",
+  "description": "Collection of Claude Code skills for development workflows",
+  "owner": {
+    "name": "tavannam9x",
+    "email": "namta365@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "migration-review",
+      "description": "Automated database migration risk review: assesses risk level, asks clarifying questions, requires confirmation for high-risk changes, and documents the review checklist.",
+      "author": {
+        "name": "tavannam9x"
+      },
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tavannam9x/agent-skills.git",
+        "path": "migration-review",
+        "ref": "master",
+        "sha": "215e90339c048cb9a5c9f81c3e9ab2df69ba4d60"
+      },
+      "homepage": "https://github.com/tavannam9x/agent-skills/tree/master/migration-review"
+    }
+  ]
+}
